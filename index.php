@@ -19,9 +19,9 @@ if(sizeof($res) == 0) {
  $message .= "> Adres: " . $res[0]['address'];
  
 } else {
- $message = "De volgende zijn allemaal van cronos:\n";
+ $message = "De volgende zijn allemaal van cronos :raised_hands: :raised_hands: :raised_hands:\n";
  foreach($res as $boite) {
- 	$message .= " *". $boite['name'] ."*";
+ 	$message .= "> *". $boite['name'] ."*\n";
  }
 }
 
